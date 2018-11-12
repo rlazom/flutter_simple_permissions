@@ -135,6 +135,9 @@ public class SimplePermissionsPlugin implements MethodCallHandler, PluginRegistr
             case "READ_SMS":
                 res = Manifest.permission.READ_SMS;
                 break;
+            case "RECEIVE_SMS":
+                res = Manifest.permission.RECEIVE_SMS;
+                break;
             case "VIBRATE":
                 res = Manifest.permission.VIBRATE;
                 break;
